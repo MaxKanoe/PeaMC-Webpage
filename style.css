@@ -1,0 +1,160 @@
+/*Webpage Color palette - Greens: 97B10F, A4BF20. Blacks: 28293D, 0C0908. White: FFFFFF, FBFCF8*/
+
+/*Setup*/
+@font-face {
+    font-family: mcRegular;
+    src: url(Fonts/MinecraftRegular-Bmg3.otf);
+}
+
+@font-face {
+    font-family: mcBold;
+    src: url(Fonts/MinecraftBold-nMK1.otf);
+}
+
+body {
+    font-family: mcRegular;
+    font-size: 2rem;
+}
+dl {
+    color: #ffffff;
+    text-align: center;
+    font-size: 6vmin;
+    list-style: inside;
+}
+dt {
+    font-family: mcBold;
+    margin-top: 160px;
+}
+ol {
+    color: #A4BF20;
+    text-align: center;
+    font-size: 3vmax;
+    list-style: square inside;
+}
+li {
+    margin-top: 85px;
+}
+button {
+    font-family: mcRegular;
+    font-size: 4.5vmin;
+}
+#topBar {
+    background: #0C0908;
+    width: 95vw;
+    height: 14vmin;
+    position: absolute;
+    margin-left: 2vw;
+    border-radius: 10px;
+}
+#tittleBar {
+    width: 9.5vmax;
+    top: 5px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.NavigationBar {
+    position: relative;
+    margin-left: 5px;
+    font-size: 3.97vmin;
+}
+#ipNport {
+    width: 250px;
+    height: 30px;
+    position: fixed;
+    font-size: 22px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: #0C0908;
+    border: 4px solid #A4BF20;
+}
+#foreground {
+    background: rgba(12, 9, 8, 0.7);
+    width: 95vw;
+    height: 3615px;
+    margin-left: 2vw;
+    border-radius: 10px;
+}
+
+#welcomeTitle {
+    position: absolute;
+    font-size: 5vmax;
+    color: #A4BF20;
+    top: 280px;
+    left: 50vw;
+    margin-left: -23vw;
+}
+#welcomeParagraph {
+    position: absolute;
+    text-align:center;
+    font-size: 2rem;
+    color: #ffffff;
+    width: 70vw;
+    top: 450px;
+    left: 50vw;
+    margin-left: -35vw;
+}
+
+section { height: 110vh;}
+
+#rulesContainer { background-color: #A4BF20; }
+#featuresContainer { background-color: #ffffff;}
+#galleryContainer { background-color: #28293d;}
+
+#ruleHeader {
+    text-align: center;
+    color: #ffffff;
+}
+#featuresHeader {
+    text-align: center;
+    color: #A4BF20;
+}
+#galleryHeader {
+    text-align: center;
+    color: #ffffff;
+}
+.gallery {
+    position: relative;
+    display:inline-block;
+    margin: 5px;
+    bottom: 300px;
+    border: 3px solid #ffffff;
+}
+
+#galleryContainer {
+    height: 50vh;
+}
+
+#bottomBar {
+    position: absolute;
+    background-color: black;
+    width: 99.3vw;
+    height: 300px;
+    top: 3600px;
+    margin-left: -50px;
+
+}
+#shutdown {
+    min-width: 100vw;
+    height: 600px;
+}
+#shutdown-foreground {
+    position: absolute;
+    background: linear-gradient(transparent, white 75%);
+    min-width: 100%;
+    min-height: 100%;
+    right: 0px;
+    top: 3630px;
+}
+#shutdown-background {
+    min-width: 100%;
+    min-height: 100%;
+    right: 0px;
+    background-image: url(Image/EndPortal.gif);
+    position: absolute;
+    top: 3630px;
+}
+.shutdown-text {
+    position: relative;
+    color: white;
+}
